@@ -32,3 +32,15 @@ console.log(`degree centrality for node B: ${degreeCentralityForB}`)
 console.log(`degree centrality for node C: ${degreeCentralityForC}`)
 console.log(`degree centrality for node D: ${degreeCentralityForD}`)
 
+console.log('========================')
+
+const closenessCentralityForA = centrality.calculateClosenessCentrality('A')
+const closenessCentralityForB = centrality.calculateClosenessCentrality('B')
+const closenessCentralityForC = centrality.calculateClosenessCentrality('C')
+const closenessCentralityForD = centrality.calculateClosenessCentrality('D')
+
+console.log(`closeness centrality for node A: ${closenessCentralityForA}`)
+console.log(`closeness centrality for node B: ${closenessCentralityForB}`)
+console.log(`closeness centrality for node C: ${closenessCentralityForC}`)
+console.log(`closeness centrality for node D: ${closenessCentralityForD}`)
+
