@@ -44,3 +44,16 @@ console.log(`closeness centrality for node B: ${closenessCentralityForB}`)
 console.log(`closeness centrality for node C: ${closenessCentralityForC}`)
 console.log(`closeness centrality for node D: ${closenessCentralityForD}`)
 
+console.log('========================')
+
+const betweennessCentralityForA = centrality.calculateBetweennessCentrality('A')
+const betweennessCentralityForB = centrality.calculateBetweennessCentrality('B')
+const betweennessCentralityForC = centrality.calculateBetweennessCentrality('C')
+const betweennessCentralityForD = centrality.calculateBetweennessCentrality('D')
+
+
+console.log(`betweenness centrality for node A: ${betweennessCentralityForA}`)
+console.log(`betweenness centrality for node B: ${betweennessCentralityForB}`)
+console.log(`betweenness centrality for node C: ${betweennessCentralityForC}`)
+console.log(`betweenness centrality for node D: ${betweennessCentralityForD}`)
+
